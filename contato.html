@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clínica Médica - Contato</title>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Página Principal</a></li>
+            <li><a href="sobre.html">Sobre a clínica</a></li>
+            <li><a href="horarios.html">Horário de Atendimento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+
+    <div id="header">
+        <img src="header_image4.jpg" alt="Header Image">
+    </div>
+
+    <div id="content">
+        <h1>Contato</h1>
+        <p>Entre em contato conosco:</p>
+        <p>Telefones de contato: (11) 1234-5678 / WhatsApp: (11) 98765-4321</p>
+        <p>Endereço: Rua da Clínica, 123 - Bairro, Cidade</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-46.7890123!3d-23.4567890!4sPerto%20da%20cl%C3%ADnica!5e0!3m2!1spt-BR!2sbr!4v1111111111111!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <form action="enviar.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar formulário</button>
+        </form>
+    </div>
+
+    <div id="footer">
+        <p>Contato: contato@clinica.com</p>
+    </div>
+</body>
+
+</html>
